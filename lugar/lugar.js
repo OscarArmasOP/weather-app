@@ -9,8 +9,6 @@ const getLugarLatLng = async(dir) => {
         baseURL: `https://devru-latitude-longitude-find-v1.p.rapidapi.com/latlon.php?location=${encodedUlr}`,
         headers: { 'x-rapidapi-key': 'ba82d4fb9fmshd92d6d386f5846bp166bfbjsne9978567b946' }
     });
-
-
     const resp = await instance.get();
 
     if (resp.data.Results.length === 0) {
