@@ -1,7 +1,11 @@
 ## Aplicación del Clima -- Node
 
 
-Ejecutar ````npm install ``` para las librerias
+Ejecutar 
+```
+npm install 
+```
+
 
 ### Ejemplo
 ```
